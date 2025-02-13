@@ -1,0 +1,19 @@
+# started on Thu Feb 13 22:44:37 2025
+
+
+ Performance counter stats for './1_cpu_bound 6':
+
+          2,754.88 msec cpu-clock                        #    3.072 CPUs utilized             
+          2,755.33 msec task-clock                       #    3.073 CPUs utilized             
+    2,29,43,85,318      L1-dcache-loads                  #  832.843 M/sec                     
+          4,09,008      L1-dcache-load-misses            #    0.02% of all L1-dcache accesses 
+         28,24,582      cache-references                 #    1.025 M/sec                     
+          5,99,946      cache-misses                     #   21.24% of all cache refs         
+               477      context-switches                 #  173.147 /sec                      
+
+       0.896643724 seconds time elapsed
+
+       2.734428000 seconds user
+       0.005928000 seconds sys
+
+

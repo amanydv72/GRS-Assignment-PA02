@@ -1,0 +1,19 @@
+# started on Thu Feb 13 22:45:08 2025
+
+
+ Performance counter stats for './2_memory_bound 6':
+
+              4.92 msec cpu-clock                        #    1.007 CPUs utilized             
+              4.95 msec task-clock                       #    1.013 CPUs utilized             
+         58,27,419      L1-dcache-loads                  #    1.185 G/sec                     
+            66,023      L1-dcache-load-misses            #    1.13% of all L1-dcache accesses 
+          2,94,657      cache-references                 #   59.918 M/sec                     
+          1,10,831      cache-misses                     #   37.61% of all cache refs         
+                 6      context-switches                 #    1.220 K/sec                     
+
+       0.004881702 seconds time elapsed
+
+       0.001316000 seconds user
+       0.003925000 seconds sys
+
+

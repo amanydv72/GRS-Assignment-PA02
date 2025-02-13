@@ -1,0 +1,19 @@
+# started on Thu Feb 13 22:45:25 2025
+
+
+ Performance counter stats for './3_io_bound 6':
+
+          8,780.10 msec cpu-clock                        #    3.326 CPUs utilized             
+          8,783.42 msec task-clock                       #    3.327 CPUs utilized             
+    8,60,31,17,703      L1-dcache-loads                  #  979.843 M/sec                     
+      26,61,14,183      L1-dcache-load-misses            #    3.09% of all L1-dcache accesses 
+    2,37,46,74,503      cache-references                 #  270.461 M/sec                     
+      10,68,84,507      cache-misses                     #    4.50% of all cache refs         
+            14,130      context-switches                 #    1.609 K/sec                     
+
+       2.640100946 seconds time elapsed
+
+       1.013596000 seconds user
+       7.703474000 seconds sys
+
+

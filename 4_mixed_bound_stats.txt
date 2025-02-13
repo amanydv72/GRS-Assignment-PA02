@@ -1,0 +1,19 @@
+# started on Thu Feb 13 22:46:19 2025
+
+
+ Performance counter stats for './4_mixed_bound 6':
+
+          8,010.03 msec cpu-clock                        #    2.563 CPUs utilized             
+          8,012.31 msec task-clock                       #    2.564 CPUs utilized             
+    7,29,63,90,657      L1-dcache-loads                  #  910.906 M/sec                     
+       7,05,25,376      L1-dcache-load-misses            #    0.97% of all L1-dcache accesses 
+      74,45,01,404      cache-references                 #   92.946 M/sec                     
+       2,37,50,034      cache-misses                     #    3.19% of all cache refs         
+             5,609      context-switches                 #  700.247 /sec                      
+
+       3.125460814 seconds time elapsed
+
+       5.765082000 seconds user
+       2.198518000 seconds sys
+
+
